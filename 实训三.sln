@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数字游戏", "数字游�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "小明系列之高中时光", "小明系列之高中时光\小明系列之高中时光.vcxproj", "{FE41F55D-5B37-4711-B8E7-6304D3983A98}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Crazy Tank", "razy Tank\razy Tank.vcxproj", "{559D29DF-52E6-461A-A2C2-EDBEC9EFDC1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{FE41F55D-5B37-4711-B8E7-6304D3983A98}.Release|x64.Build.0 = Release|x64
 		{FE41F55D-5B37-4711-B8E7-6304D3983A98}.Release|x86.ActiveCfg = Release|Win32
 		{FE41F55D-5B37-4711-B8E7-6304D3983A98}.Release|x86.Build.0 = Release|Win32
+		{559D29DF-52E6-461A-A2C2-EDBEC9EFDC1A}.Debug|x64.ActiveCfg = Debug|x64
+		{559D29DF-52E6-461A-A2C2-EDBEC9EFDC1A}.Debug|x64.Build.0 = Debug|x64
+		{559D29DF-52E6-461A-A2C2-EDBEC9EFDC1A}.Debug|x86.ActiveCfg = Debug|Win32
+		{559D29DF-52E6-461A-A2C2-EDBEC9EFDC1A}.Debug|x86.Build.0 = Debug|Win32
+		{559D29DF-52E6-461A-A2C2-EDBEC9EFDC1A}.Release|x64.ActiveCfg = Release|x64
+		{559D29DF-52E6-461A-A2C2-EDBEC9EFDC1A}.Release|x64.Build.0 = Release|x64
+		{559D29DF-52E6-461A-A2C2-EDBEC9EFDC1A}.Release|x86.ActiveCfg = Release|Win32
+		{559D29DF-52E6-461A-A2C2-EDBEC9EFDC1A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
