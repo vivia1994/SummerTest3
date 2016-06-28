@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8469682F-DF1E-4E14-9DB9-391AADA19C99}</ProjectGuid>
+    <ProjectGuid>{FE41F55D-5B37-4711-B8E7-6304D3983A98}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>明7暗7</RootNamespace>
+    <RootNamespace>小明系列之高中时光</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>明7暗7long_int</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
