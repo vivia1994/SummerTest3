@@ -19,7 +19,7 @@ For each test case output one line( one number ), indicating the value of gcd (A
 1
 4*/
 
-#include<iostream>
+/*#include<iostream>
 #include<cmath>
 using namespace std;
 
@@ -109,4 +109,30 @@ int main()
 		}
 	}
 	return 0;
+}*/
+
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+/**
+* Created by laowang on 2016/6/24.
+*/
+public class Main {
+	public static void main(String args[]) {
+		Scanner s = new Scanner(System.in);
+		while (s.hasNext()) {
+			String str = s.nextLine();
+			String strs[] = str.split(" ");
+			int num[] = new int[2];
+			for (int i = 0; i<2; i++)
+				num[i] = Integer.valueOf(strs[i]);
+			BigInteger b = new BigInteger(strs[0]);
+			BigInteger b1 = new BigInteger(strs[1]);
+			BigInteger b2 = b1.pow(num[1]);
+			BigInteger b3 = b.gcd(b2);
+			System.out.println(b3);
+			System.out.print("");
+		}
+	}
 }

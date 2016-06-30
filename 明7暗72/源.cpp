@@ -37,7 +37,7 @@ int main()
 			if ((IsSenven(r) || HaveSenve(r)) && m == 0)
 			{
 				cout << r << endl;
-				break;
+				return 0;
 			}
 			k += 1;
 			//cout << k << endl;
